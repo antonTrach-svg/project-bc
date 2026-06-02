@@ -44,5 +44,4 @@ def create_task(task: Task):
 
 @app.delete("/tasks/{item_id}", status_code=204)
 def delete_task(item_id: int):
-    ...
     return None
